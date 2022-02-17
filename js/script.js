@@ -5,7 +5,7 @@ const rentInput = document.getElementById('rent-input');
 const clothInput = document.getElementById('cloth-input');
 const savePercentage = document.getElementById('percentage-input');
 
-/* get Elements of html  */
+/* get innerText Elements of html  */
 const expensesTotal = document.getElementById('expenses-total');
 const balanceTotal = document.getElementById('total-balance');
 const saveAmount = document.getElementById('save-amount');
