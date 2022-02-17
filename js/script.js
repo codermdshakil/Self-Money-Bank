@@ -105,7 +105,6 @@ function getRemainingBalance(){
         remainingBalance.innerText = null;
     }
 
-
 }
 
 /* totalExpenses() function calling in  calculate-button */
@@ -117,4 +116,5 @@ document.getElementById('calculate-button').addEventListener('click', function()
 document.getElementById('saving-btn').addEventListener('click', function (){
     getRemainingBalance();
 })
+
 

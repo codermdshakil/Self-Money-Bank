@@ -7,62 +7,57 @@
     <title>Self Money Bank | Md. Shakil Ahmed</title>
     <!-- bootstrap cdn linked here  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- bootstrap file linked here  -->
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <!-- custom js file linked here  -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 <body>
-    <!-- self bank starts here  -->
+    <!-- self money bank starts here  -->
 <div class="container">
-    <!-- header section starts here  -->
-    <header class="header-section py-5">
-        <h2 class="bank-title text-center">Self Money Bank</h2>
-    </header>
-        <main>
-            <!-- banking-section starts here -->
-            <section class="bank-section">
-                <div class="bank-wrapper pb-5 pt-2">
-                    <div class="row pb-3">
-                        <div class="col-lg-6 col-md-6 col-11 d-block m-auto  pb-5 pb-md-0">
-                            <div class="bank-imgs pb-2 pb-md-0">
-                                <img src="./img/bank-img.jpg" class="banking-img img-fluid" alt="">
-                            </div>
+<!-- header section starts here  -->
+<header class="header-section py-5">
+    <h2 class="bank-title text-center">Self Money Bank</h2>
+</header>
+    <main>
+        <!-- banking-section starts here -->
+        <section class="bank-section">
+            <div class="bank-wrapper pb-5 pt-2">
+                <div class="row pb-3">
+                    <div class="col-lg-6 col-md-6 col-11 d-block m-auto  pb-5 pb-md-0">
+                        <div class="bank-imgs pb-2 pb-md-0">
+                            <img src="./img/bank-img.jpg" class="banking-img img-fluid" alt="">
                         </div>
-                        <div class="col-lg-6 col-md-6 col-11 d-block m-auto">
-                            <div class="banking-calculation text-center">
-                                <div class="income">
-                                    <h4 class="text-center title">Income</h4>
-                                    <p id="income" class="income-input"><span class="subtite">Income : </span> <input id="income-amount" class="input-style" type="number"></p>
-                                </div>
-                                <div class="expenses">
-                                    <h4 class="text-center title">Expenses</h4>
-                                    <p class="mb-4"><span class="subtite">Food : </span> <input id="food-input"  class="input-style" type="number"></p>
-                                    <p class="mb-4"><span class="subtite">Rent : </span> <input id="rent-input" class="input-style rent-input" type="number"></p>
-                                    <p class="cloth-input mb-5"><span class=" subtite">Clothers : </span> <input id="cloth-input" class="input-style" type="number"></p>
-                                    <button id="calculate-button"  class="calculate-btn mb-1">Calculate</button>
-                                    <p id="first-error" class="error-massage1">Please! Enter Positive Number</p>
-                                    <p id="secound-error" class="error-massage2">Your income is smaller than your total expenses!!</p>
-                                    <h3 class="total-Expenses">Total Expenses:  <span id="expenses-total"></span></h3>
-                                    <h3 class="balance-total">Balance : <span id="total-balance"></span></h3>
-                                </div>
-                                <div class="saving-blog ">
-                                    <p class ="saves subtite mb-4">Save : <input id="percentage-input" class="input-style2" type="number"> <span class="persentage">%</span> <button id="saving-btn" class="save-btn">Save</button></p>
-                                </div>
-                                <p id="third-error" class="error-massage3">You have no enough money for save!!</p>
-                                <h3 class="save-amount">Saving Amount: <span id="save-amount"></span>  </h3>
-                                <h3 class="remaining">Remaining balance: <span id="remaining-blance"></span>  </h3>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-11 d-block m-auto">
+                        <div class="banking-calculation text-center">
+                            <div class="income">
+                                <h4 class="text-center title">Income</h4>
+                                <p id="income" class="income-input"><span class="subtite">Income : </span> <input id="income-amount" class="input-style" type="number"></p>
                             </div>
+                            <div class="expenses">
+                                <h4 class="text-center title">Expenses</h4>
+                                <p class="mb-4"><span class="subtite">Food : </span> <input id="food-input"  class="input-style" type="number"></p>
+                                <p class="mb-4"><span class="subtite">Rent : </span> <input id="rent-input" class="input-style rent-input" type="number"></p>
+                                <p class="cloth-input mb-5"><span class=" subtite">Clothers : </span> <input id="cloth-input" class="input-style" type="number"></p>
+                                <button id="calculate-button"  class="calculate-btn mb-1">Calculate</button>
+                                <p id="first-error" class="error-massage1">Please! Enter Positive Number</p>
+                                <p id="secound-error" class="error-massage2">Your income is smaller than your total expenses!!</p>
+                                <h3 class="total-Expenses">Total Expenses:  <span id="expenses-total"></span></h3>
+                                <h3 class="balance-total">Balance : <span id="total-balance"></span></h3>
+                            </div>
+                            <div class="saving-blog ">
+                                <p class ="saves subtite mb-4">Save : <input id="percentage-input" class="input-style2" type="number"> <span class="persentage">%</span> <button id="saving-btn" class="save-btn">Save</button></p>
+                            </div>
+                            <p id="third-error" class="error-massage3">You have no enough money for save!!</p>
+                            <h3 class="save-amount">Saving Amount: <span id="save-amount"></span>  </h3>
+                            <h3 class="remaining">Remaining balance: <span id="remaining-blance"></span>  </h3>
                         </div>
                     </div>
                 </div>
-            </section>
-        </main>    
-    </div>
-    
-    <!-- bootstrap bundle js file lineked here   -->
-    <script src="./js/bootstrap.bundle.min.js"></script>
+            </div>
+        </section>
+    </main>    
+</div>
     <!-- bootstrap bundle  js  cdn linked here  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <!-- custom js file linked here  -->
